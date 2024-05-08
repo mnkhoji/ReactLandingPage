@@ -1,4 +1,16 @@
-
+.card {
+    margin: 5px;
+}
+img {
+    width: 500px;
+    height: 325px;
+}
+.bGround{
+    background-color: lightgray;
+}
+.navbar{
+    background-color: gray;
+}
 /* 
 
     You can write your own styles here...
