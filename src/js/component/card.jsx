@@ -5,8 +5,8 @@ console.log(props)
 
     return (
        
-     <div className="card" >
-  <img src={props.data.img} className="card-img-top" alt="..."/>
+     <div className="card col-sm-12 col-md-6 col-lg-3 col-xl-3" >
+  <img className="img-fluid" src={props.data.img}/>
   <div className="card-body">
     <h5 className="card-title">{props.data.title}</h5>
     <p className="card-text">{props.data.content}</p>
